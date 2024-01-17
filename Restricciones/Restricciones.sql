@@ -1,0 +1,9 @@
+alter table categoria_menu add constraint nombreUnicoCM unique (nombre);
+alter table categoria_restaurante add constraint nombreUnicoCR unique (nombre);
+alter table detalle_restaurante add constraint nombreUnicoDR unique (nombre);
+alter table imagenes_menu add constraint nombreUnicoIM unique (id_imagen);
+alter table imagenes_restaurante add constraint nombreUnicoIR unique (id_imagen);
+alter table ingredientes add constraint nombreUnicoIN unique (id_ingrediente);
+alter table menu add constraint nombreUnicoMN unique (nombre);
+alter table restaurantes add constraint nombreUnicoRT unique (nombre);
+alter table usuarios add constraint nombreUnicoUS unique (nombre);
