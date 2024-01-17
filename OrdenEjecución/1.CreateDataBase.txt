@@ -1,0 +1,1 @@
+Se debe ejecutar Script de la base de datos que está en la carpeta llamada Tablas
