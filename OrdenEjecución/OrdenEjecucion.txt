@@ -1,7 +1,8 @@
 1 1.CrearBasedeDatos.sql
 2 Tablas/tablas.sql
 3 Secuencias/Secuencias.sql
-4 Restricciones/Restricciones.sql
-5 Funciones/Funciones.sql
-6 Triggers/Triggers.sql
-7 Inserciones/Inserciones.sql
+4 Alterar/Alterar.sql
+5 Restricciones/Restricciones.sql
+6 Funciones/Funciones.sql
+7 Triggers/Triggers.sql
+8 Inserciones/Inserciones.sql
