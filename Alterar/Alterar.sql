@@ -6,18 +6,18 @@ ALTER COLUMN id_usuario SET DEFAULT nextval('public.usuario_seq'::regclass);
 ALTER TABLE public.restaurantes
 ALTER COLUMN id_restaurante SET DEFAULT nextval('public.restaurant_seq'::regclass);
 
---Sec tabla categoria menu
+--Sec tabla categoria_menu
 ALTER TABLE public.categoria_menu
 ALTER COLUMN id_categoria SET DEFAULT nextval('public.menuCategory_seq'::regclass);
 
---Sec tabla detalle restaurante
+--Sec tabla detalle_restaurante
 ALTER TABLE public.detalle_restaurante
 ALTER COLUMN id_detalle SET DEFAULT nextval('public.restaurantDetail_seq'::regclass);
 
---Sec tabla categoria restaurante
+--Sec tabla categoria_restaurante
 ALTER TABLE public.detalle_restaurante
 ALTER COLUMN id_categoria SET DEFAULT nextval('public.restaurantcategory_seq'::regclass);
 
---Sec tabla imagenes menu
+--Sec tabla imagenes_menu
 ALTER TABLE public.imagenes_menu
 ALTER COLUMN id_imagen SET DEFAULT nextval('public.menuimagenes_seq'::regclass);
